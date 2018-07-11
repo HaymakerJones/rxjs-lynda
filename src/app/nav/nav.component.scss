@@ -1,0 +1,18 @@
+.my-nav {
+    display: flex;
+    font-family: roboto;
+
+    &:nth-child(1) {
+        font-size: 2em;
+    }
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.link {
+    font-size: 0.5em;
+    text-decoration: none;
+    padding: 0.5em;
+}

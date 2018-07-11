@@ -1,0 +1,3 @@
+<nav class="my-nav">
+  <a *ngFor="let item of navItems" [routerLink]="item.path" class="link">{{item.label}}</a>
+</nav>
