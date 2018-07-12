@@ -1,0 +1,5 @@
+<app-nav [navTitle]="title"></app-nav>
+<button type="button">Click me
+</button>
+
+<input type="text" [(ngModel)]="searchString" (ngModelChange)="inputChanged($event)" placeholder="Search">

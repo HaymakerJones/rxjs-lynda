@@ -33,6 +33,14 @@ export class NavComponent implements OnInit {
       {
         path: '/operators',
         label: 'Operators'
+      },
+      {
+        path: '/test-interface',
+        label: 'Test Interface Interaction'
+      },
+      {
+        path: '/test-api',
+        label: 'Test Reddit API'
       }
     ];
   }

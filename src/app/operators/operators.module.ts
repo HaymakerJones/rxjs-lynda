@@ -7,6 +7,8 @@ import { SharedModule } from '../shared-module';
 import { OperatorsNavComponent } from './operators-nav/operators-nav.component';
 import { MapComponent } from './map/map.component';
 import { FilterComponent } from './filter/filter.component';
+import { MergeMapComponent } from './merge-map/merge-map.component';
+import { SwitchMapComponent } from './switch-map/switch-map.component';
 
 
 
@@ -28,6 +30,8 @@ import { FilterComponent } from './filter/filter.component';
         OperatorsNavComponent,
         MapComponent,
         FilterComponent,
+        MergeMapComponent,
+        SwitchMapComponent,
     ],
     providers: [],
 })

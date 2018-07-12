@@ -15,6 +15,9 @@ export class OperatorsNavComponent implements OnInit {
     this.navItems = [
       { path: './take', label: 'Take' },
       { path: './map', label: 'Map' },
+      { path: './filter', label: 'Filter' },
+      { path: './merge-map', label: 'Merge Map' },
+      { path: './switch-map', label: 'Switch Map' },
     ];
 
   }
